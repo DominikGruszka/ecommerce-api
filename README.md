@@ -12,3 +12,16 @@ Workflow `.github/workflows/dotnet.yml` automatycznie buduje projekt po każdym 
 - Przywraca zależności
 - Buduje projekt (`dotnet build`)
 - (Opcjonalnie) uruchamia testy (`dotnet test`)
+
+# Ecommerce API
+
+## Publiczny adres API:
+https://ecommerce-api-demo-dg-gqa7f9g0cxepdxdv.westeurope-01.azurewebsites.net/
+
+## Wykorzystane usługi Azure:
+- Azure App Service (do hostingu API)
+- GitHub Actions (do automatycznego wdrażania)
+
+##  Konfiguracja
+Nie wymaga dodatkowej konfiguracji po wdrożeniu.  
+Po `git push` na gałąź `main`, kod jest automatycznie publikowany do Azure.

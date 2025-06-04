@@ -21,5 +21,5 @@ jobs:
         run: dotnet restore ./EcommerceApi/EcommerceApi.csproj
 
       - name: Build project
-        run: dotnet build ./EcommerceApi/EcommerceApi.csproj --no-restore
+        run: dotnet build ./EcommerceApi/EcommerceApi.csproj --configuration Release
 

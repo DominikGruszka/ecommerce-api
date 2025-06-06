@@ -15,9 +15,6 @@ Workflow `.github/workflows/dotnet.yml` automatycznie buduje projekt po każdym 
 
 # Ecommerce API
 
-## Publiczny adres API:
-https://ecommerce-api-demo-dg-gqa7f9g0cxepdxdv.westeurope-01.azurewebsites.net/
-
 ## Wykorzystane usługi Azure:
 - Azure App Service (do hostingu API)
 - GitHub Actions (do automatycznego wdrażania)
